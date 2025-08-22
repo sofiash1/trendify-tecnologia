@@ -1,27 +1,26 @@
-# TrendifyA
+# 🎀 Trendify Tecnología
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+¡Bienvenido a **Trendify**!  
+Una tienda moderna desarrollada con **Angular**, enfocada en ofrecer la mejor experiencia en tecnología.  
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🌸 Vista Previa
+🚀 Despliegue en **GitHub Pages**:  
+[![Ver Demo](https://img.shields.io/badge/🌐_Ver_Demo-FF69B4?style=for-the-badge)](https://sofiash1.github.io/trendify-tecnologia/)
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🛠️ Tecnologías Utilizadas
+<p>
+  <img src="https://img.shields.io/badge/Angular-E91E63?style=for-the-badge&logo=angular&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-FFB6C1?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-FFC0CB?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-FF69B4?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-FF1493?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub_Pages-FF69B4?style=for-the-badge&logo=github&logoColor=white"/>
+</p>
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 📂 Estructura del Proyecto
