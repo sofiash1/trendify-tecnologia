@@ -1,0 +1,10 @@
+   h2 {
+       background-color: #8fff00;
+       /* Tailwind's blue-900 */
+       border-radius: 30px;
+       text-decoration: none;
+       padding: 10px 20px;
+       color: #001c7f;
+       font-weight: bold;
+
+   }

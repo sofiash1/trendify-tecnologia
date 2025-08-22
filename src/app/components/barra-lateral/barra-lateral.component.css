@@ -1,0 +1,23 @@
+h2 {
+    color: #001c7f;
+    border-bottom: #8fff00 solid 4px;
+    text-shadow: #7ed112b0 3px 6px 5px;
+}
+
+.fecha {
+    color: #001c7f;
+    background-color: #91ff0086;
+    border-radius: 0 15px 0px 8px;
+}
+
+.buscar {
+    background-color: #91ff0086;
+    color: #001c7f;
+}
+
+.sombreado {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img{
+    border:#91ff0086 4px solid;
+}

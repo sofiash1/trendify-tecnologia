@@ -1,0 +1,17 @@
+button{
+    background-color: #001c7f;
+}
+button:hover {
+    transform: scale(1.1);
+    transition: duration 0.3s ease-in-out;
+    background-color: #8fff00;
+    color: #001c7f;
+}
+.comprar {
+    background-color: #91ff0086;
+    color: #001c7f;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

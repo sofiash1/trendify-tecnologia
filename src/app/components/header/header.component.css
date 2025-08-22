@@ -1,0 +1,34 @@
+.carrito {
+    font-size: 1.5rem;
+    color: #8fff00;
+    /* Color azul */
+    transition: transform 0.3s ease;
+    border: 4px solid #8fff00;
+
+
+}
+
+h1,
+h2 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+
+
+header
+{
+    background-color: #001c7f;
+    box-shadow: #8fff00 0px 4px 30px;
+    /* Tailwind's blue-900 */
+}
+
+.iniciosesion{
+    /* Tailwind's blue-900 */
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #8fff00;
+    font-weight: bold;
+   
+
+}

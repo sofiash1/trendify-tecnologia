@@ -1,0 +1,7 @@
+.tips:hover{
+    transform:scale(1.1);
+}
+.reglas{
+    border-bottom: 4px  #8fff00;
+    text-shadow: #8fff00 0px 0px 10px ;
+}

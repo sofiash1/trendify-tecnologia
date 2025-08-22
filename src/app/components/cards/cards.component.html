@@ -1,0 +1,34 @@
+<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 p-4">
+    <div *ngFor="let item of items"
+        class="bg-white shadow-2xl p-3 hover:shadow-2xl transition duration-300 scale-100 hover:scale-105 rounded-xl">
+
+        <img [src]="item.img" alt="{{ item.title }}" class="w-full h-48 object-cover rounded-t-lg mb-2">
+
+        <h3 class="text-md font-semibold text-center" [ngClass]="item.color">{{ item.title }}</h3>
+
+        <button class="font-archivo-black mt-2 px-3 py-1 text-white rounded-2xl text-sm w-full"
+            (click)="verMas(item)">
+            Ver más
+        </button>
+    </div>
+</div>
+
+
+<!-- Sección de productos extra -->
+<div *ngIf="productosExtra.length > 0" class="p-4">
+    <h2 class="text-center text-3xl font-bold text-[#001c7f] mb-6">{{ tituloExtra }}</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
+        <div *ngFor="let extra of productosExtra"
+            class="bg-white rounded-lg shadow-md p-4 hover:shadow-2xl transition duration-300 scale-100 hover:scale-105">
+            <img [src]="extra.img" alt="{{ extra.title }}" class="w-full h-48 object-cover rounded-t-lg mb-2">
+            <h3 class="text-lg font-semibold" [ngClass]="extra.color">{{ extra.title }}</h3>
+            <p class="text-gray-600">{{ extra.description }}</p>
+            <p class="text-[#001c7f] font-bold mt-2">{{ extra.precio }}</p>
+            <button class="comprar font-archivo-black mt-3 px-4 py-2 text-white rounded-3xl">
+                <a href="https://wa.me/573243864180" target="_blank">
+                    Comprar
+                </a>
+            </button>
+        </div>
+    </div>
+</div>

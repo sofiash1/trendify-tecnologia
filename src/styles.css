@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+    .roboto-uniquifier {
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
+
+    .font-archivo-black {
+        font-family: 'Archivo Black', sans-serif;
+    }
+
+
+
+
+
+
+}

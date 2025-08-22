@@ -1,0 +1,23 @@
+<!-------BANNER------->
+<section class="w-11/12 mx-auto">
+  <div class="banner h-18 w-full mx-auto  m-24 overflow-hidden ">
+    <h2 class="text-4xl block text-center mx-auto tracking-wider xs:text-2xl xs-mt-8 ">Todo en tecología y tendencias
+    </h2>
+  </div>
+
+  <!-------CARRUSEL-->
+
+  <!-------TARJETAS---------->
+  <app-cards [items]="cardsData"></app-cards>
+
+
+  <app-barra-lateral></app-barra-lateral>
+  <!-- En tu template -->
+  <div class="fixed bottom-4 right-4">
+    <a routerLink="/tips"
+      class="inline-flex items-center bg-[#8fff00] text-[#001c7f] rounded-full p-4 shadow-lg hover:shadow-xl transform hover:scale-110 transition duration-300 font-bold animate-bounce">
+      <ion-icon name="bulb-outline" clas></ion-icon> TIPS
+    </a>
+  </div>
+
+</section>

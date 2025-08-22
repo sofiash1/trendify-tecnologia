@@ -1,0 +1,33 @@
+<main class="container w-11/12 flex flex-row  mx-auto  mt-72">
+    <aside id="lateral" class="flex-none order-2 w-72 min-h-full ">
+
+        <h3 class="buscar font-archivo-black mb-4">CEO</h3>
+
+        <div id="CEO" class="max-w-xs mx-auto bg-white shadow-lg rounded-xl overflow-hidden text-center p-4">
+            <img src="../assets/img/ceo.jpg" alt="Foto del CEO"
+                class="w-32 h-32 mx-auto rounded-full object-cover ">
+            <h4 class="mt-4 text-lg font-bold text-gray-800">Laura Ramirez</h4>
+        </div>
+
+    </aside>
+    <section class="flex-grow order-1 mr-10">
+        <h2 class="font-archivo-black text-center 
+           text-2xl sm:text-3xl md:text-4xl lg:text-5xl 
+           tracking-widest pt-6 pb-4">
+            CLIENTES SATISFECHOS
+        </h2>
+
+        <article *ngFor="let item of testimonios"
+            class="w-full h-auto border border-gray-300 m-10 mx-auto p-2.5 bg-white text-black shadow-md rounded-2xl">
+            <div class="fecha font-archivo-black float-right h-10 leading-6 p-2 -m-2.5 text-sm">
+                <span class="m-2">{{ item.fecha }}</span>
+            </div>
+            <h4 class="font-archivo-black text-lg m-1">
+                <a href="#" class="font-semibold hover:underline">{{ item.nombre }}</a>
+            </h4>
+            <p class="block mt-3 mb-3 text-base font-sans font-normal">
+                {{ item.comentario }}
+            </p>
+        </article>
+    </section>
+</main>
